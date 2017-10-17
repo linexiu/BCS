@@ -1,0 +1,9 @@
+ x = 6
+ n = 1000
+ lambda = 2
+ p = lambda / n
+ dbinom (x,2*n,p) # binomial probability mass function
+ 
+ dpois (x, 2*lambda ) # Poisson probability mass function
+ 
+ dpois (0, 5 )
